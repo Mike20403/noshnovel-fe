@@ -57,6 +57,7 @@ module.exports = {
     'react/react-in-jsx-scope': "off",
     'jsx-a11y/label-has-associated-control': 'off',
     'react/no-unknown-property': 'off',
-    "@typescript-eslint/no-unused-vars": 'off'
+    "@typescript-eslint/no-unused-vars": 'off',
+    "jsx-a11y/anchor-is-valid": "off",
   },
 }
