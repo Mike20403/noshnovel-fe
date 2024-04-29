@@ -2,7 +2,6 @@
 
 export const SearchSection = () => {
 
-
   return (<>
     <section className="banner flex flex-col w-full items-center justify-center min-h-[10rem]">
       <img className="w-full relative h-[35rem]" src="/src/assets/nosh_bg.png" alt="banner" />
@@ -70,7 +69,7 @@ export const SearchSection = () => {
                       backgroundPosition: 'center',
                       backgroundSize: '50px 50px'
                     }}
-                    className="hover:opacity-60 p-5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800
+                    className="border-none hover:opacity-60 p-5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800
                     focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               <span className="sr-only">Search</span>
             </button>
