@@ -2,8 +2,6 @@ import { Novel } from '~/models/Novel.tsx';
 import { NovelSearchCard } from '~/components/NovelSearchCard.tsx';
 import ReactPaginate from 'react-paginate';
 import { useState } from 'react';
-import { CardSlider } from '~/components/CardSlider.tsx';
-import ReactDOM from 'react-dom/client';
 
 export type CardSearchListProps = {
   item: Novel[],

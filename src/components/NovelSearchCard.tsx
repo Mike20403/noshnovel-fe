@@ -46,21 +46,5 @@ export const NovelSearchCard = (props: NovelSeachCardProps) => {
         </div>
       </div>
     </div>
-
-    {/*<div*/}
-    {/*  className="card-wrapper hover:opacity-50 cursor-pointer relative flex flex-col justify-between rounded-2xl w-[30rem] h-[20rem]">*/}
-    {/*  <div className="overlay bg-gradient-to-b from-app_primary to-white opacity-30 absolute w-full h-full rounded-2xl">*/}
-    {/*  </div>*/}
-    {/*  <div className="card-top-action absolute p-3 w-full flex">*/}
-    {/*    <div className="badge rounded bg-green-500 text-white p-1 text-xs">New</div>*/}
-    {/*  </div>*/}
-
-    {/*  <div className="absolute bottom-overlay bg-black rounded-b-2xl opacity-60 w-full bottom-0">*/}
-    {/*    <div className="card-infomation flex flex-col cursor-pointer hover:opacity-50 px-2 py-1">*/}
-    {/*      <div className="title text-white">Thế giới hoàn mỹ</div>*/}
-    {/*      <div className="category text-white">Tiên Hiệp</div>*/}
-    {/*    </div>*/}
-    {/*  </div>*/}
-    {/*</div>*/}
   </>)
 }
