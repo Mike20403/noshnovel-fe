@@ -2,6 +2,7 @@
 
 export const SearchSection = () => {
 
+
   return (<>
     <section className="banner flex flex-col w-full items-center justify-center min-h-[10rem]">
       <img className="w-full relative h-[35rem]" src="/src/assets/nosh_bg.png" alt="banner" />

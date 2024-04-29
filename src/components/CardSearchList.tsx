@@ -19,7 +19,7 @@ export const CardSearchList = (props: CardSearchListProps) => {
     setCurrentPage(event.selected);
   };
 
-  // const displayedItems = item.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage);
+  const displayedItems = item.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage);
 
   return (
     <div className="wrapper p-3 grid grid-cols-1 gap-4"> {/* Assumes 2 columns per row */}
