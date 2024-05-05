@@ -19,6 +19,7 @@ export default {
       pink: colors.fuchsia,
       app_primary: '#467400',
       app_secondary: '#D1F4BC',
+      app_tertiary: '#85da66',
     },
   },
   plugins: [],
