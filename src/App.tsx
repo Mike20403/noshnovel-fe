@@ -14,14 +14,14 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="" element={<Dashboard />}>
-          <Route path="" element={<ReadHistory />} />
-          <Route path="/search-result" element={<SearchResult />} />
-        </Route>
-        <Route path="/novel-detail" element={<NovelDetails />} />
-      </Routes>
+        <Navbar />
+        <Routes>
+          <Route path="" element={<Dashboard />}>
+            <Route path="" element={<ReadHistory />} />
+            <Route path="/search-result" element={<SearchResult />} />
+          </Route>
+          <Route path="/novel-detail" element={<NovelDetails />} />
+        </Routes>
     </>
   );
 }
