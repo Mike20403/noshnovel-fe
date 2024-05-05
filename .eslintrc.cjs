@@ -62,5 +62,8 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "off",
     "no-undef": "off",
     "react/no-children-prop": "off",
+    "import/no-unresolved": "off",
+    "import/namespace": "off",
+    "import/named": "off",
   },
 }
